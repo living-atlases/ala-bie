@@ -10,7 +10,7 @@
 <section class="container">
 
     <header class="pg-header">
-        <h1>Search the Atlas of Living Australia</h1>
+        <h1>Search the ${grailsApplication.config.skin?.orgNameLong}</h1>
     </header>
 
     <div class="section">
