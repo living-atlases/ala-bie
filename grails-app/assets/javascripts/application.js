@@ -5,17 +5,14 @@
 // You're free to add application-wide JavaScript to this file, but it's generally better
 // to create separate JavaScript files as needed.
 //
-//= require jquery-2.2.0.min
+//+= require jquery-2.2.0.min
 //= require bootstrap
 //= require_tree .
 //= require_self
 
-if (typeof jQuery !== 'undefined') {
-    (function($) {
-        $(document).ajaxStart(function() {
-            $('#spinner').fadeIn();
-        }).ajaxStop(function() {
-            $('#spinner').fadeOut();
-        });
-    })(jQuery);
-}
+$(document).ready(function() {
+    // show the user search query in the banner search input - so they can easily modify their search
+    var urlParams = new URLSearchParams(window.location.search);
+    var query = urlParams.get('q');
+    $('#biesearch').val(query);
+});
