@@ -103,7 +103,7 @@ skin:
   layout: ala
   orgNameLong: Atlas of Living Australia
   orgNameShort: ALA
-  logoFile: iTunesArtwork-512.png
+  logoFile: ALA-logo-300x271.png
   fluidLayout: false
 bie:
   baseURL: http://localhost:8080
