@@ -105,6 +105,8 @@ skin:
   orgNameShort: ALA
   logoFile: ALA-logo-300x271.png
   fluidLayout: false
+facebook:
+  app_id: 291639771683619
 bie:
   baseURL: http://localhost:8080
   searchPath: /search
