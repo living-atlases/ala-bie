@@ -14,7 +14,7 @@ plugins {
     id "com.gorylenko.gradle-git-properties" version "1.4.17"
 }
 
-version "1.4.9-SNAPSHOT"
+version "1.4.9"
 group "au.org.ala"
 
 apply plugin:"eclipse"
@@ -88,5 +88,6 @@ bootRun {
 assets {
     minifyJs = true
     minifyCss = true
+    //developmentRuntime = false
 }
 
