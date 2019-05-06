@@ -118,42 +118,42 @@ serverName: http://dev.ala.org.au:8080
 projectNameShort: Atlas
 projectName: Atlas of Living Australia
 biocache:
-    baseURL: "http://biocache.ala.org.au"
+    baseURL: "https://biocache.ala.org.au"
 biocacheService:
-    baseURL: http://biocache.ala.org.au/ws
+    baseURL: https://biocache-ws.ala.org.au/ws
     queryContext:
 spatial:
-    baseURL: http://spatial.ala.org.au
+    baseURL: https://spatial.ala.org.au
 layersService:
-    baseURL: http://spatial.ala.org.au/ws
+    baseURL: https://spatial.ala.org.au/ws
 ala:
-    baseURL: http://www.ala.org.au
+    baseURL: https://www.ala.org.au
 collectory:
-    baseURL: http://collections.ala.org.au
-    threatenedSpeciesCodesUrl: http://collections.ala.org.au/public/showDataResource
+    baseURL: https://collections.ala.org.au
+    threatenedSpeciesCodesUrl: https://collections.ala.org.au/public/showDataResource
 regions:
-    baseURL: http://regions.ala.org.au
+    baseURL: https://regions.ala.org.au
 bhl:
     baseURL: http://bhlidx.ala.org.au
 speciesList:
-    baseURL: http://lists.ala.org.au
+    baseURL: https://lists.ala.org.au
 alerts:
-    baseUrl: http://alerts.ala.org.au/ws/
+    baseUrl: https://alerts.ala.org.au/ws/
 sightings:
-    guidUrl: http://sightings.ala.org.au/
+    guidUrl: https://sightings.ala.org.au/
 eol:
     lang: en
 defaultDecimalLatitude: -25.61
 defaultDecimalLongitude: 134.35
 defaultZoomLevel: 4
 image:
-    thumbnailUrl: http://images.ala.org.au/image/proxyImageThumbnail?imageId=
+    thumbnailUrl: https://images.ala.org.au/image/proxyImageThumbnail?imageId=
 map:
     default:
         id:
         token:
-        url: http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png
-        attr: Map data &copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>, imagery &copy; <a href='http://cartodb.com/attributions'>CartoDB</a>
+        url: https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png
+        attr: Map data &copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, imagery &copy; <a href='https://cartodb.com/attributions'>CartoDB</a>
         domain: abcd
         colour: e6704c
     simpleMapButton: false
