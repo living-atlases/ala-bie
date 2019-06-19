@@ -134,7 +134,7 @@ collectory:
 regions:
     baseURL: https://regions.ala.org.au
 bhl:
-    baseURL: http://bhlidx.ala.org.au
+    baseURL: https://www.biodiversitylibrary.org
 speciesList:
     baseURL: https://lists.ala.org.au
 alerts:
