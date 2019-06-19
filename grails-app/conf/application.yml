@@ -134,7 +134,7 @@ collectory:
 regions:
     baseURL: https://regions.ala.org.au
 bhl:
-    baseURL: http://bhlidx.ala.org.au
+    baseURL: https://www.biodiversitylibrary.org
 speciesList:
     baseURL: https://lists.ala.org.au
 alerts:
@@ -173,12 +173,16 @@ additionalMapFilter:
 synonymsTypes: synonym
 literature:
     bhl:
-        url: https://bhlidx.ala.org.au/select
+        url: https://www.biodiversitylibrary.org
+        api: https://www.biodiversitylibrary.org/api3
+        apikey: "<key value>"
     genbank:
         url: https://www.ncbi.nlm.nih.gov
     scholar:
         url: https://scholar.google.com
     trove:
-        url: https://api.trove.nla.gov.au/result?key=fvt2q0qinduian5d&zone=book&encoding=json
+      url: https://trove.nla.gov.au
+      api: https://api.trove.nla.gov.au
+      apikey: "<key value>"
 show:
     tabs: overview,gallery,names,classification,records,literature,sequences,data-partners
