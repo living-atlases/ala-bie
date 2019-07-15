@@ -186,3 +186,6 @@ literature:
       apikey: "<key value>"
 show:
     tabs: overview,gallery,names,classification,records,literature,sequences,data-partners
+
+headerAndFooter:
+  version: "1"
