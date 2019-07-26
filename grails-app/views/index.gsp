@@ -4,6 +4,13 @@
     <meta name="layout" content="${grailsApplication.config.skin.layout}"/>
     <meta name="breadcrumb" content="Search"/>
     <title>${grailsApplication.config.skin?.orgNameLong} - Search</title>
+    <asset:script type="text/javascript">
+        // global var to pass GSP vars into JS file
+        SEARCH_CONF = {
+            bieWebServiceUrl: "${grailsApplication.config.bie.index.url}"
+        }
+    </asset:script>
+    <asset:javascript src="autocomplete-configuration"/>
 </head>
 <body class="page-search">
 
