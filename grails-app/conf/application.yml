@@ -140,7 +140,7 @@ speciesList:
 alerts:
     baseUrl: https://alerts.ala.org.au/ws/
 sightings:
-    guidUrl: https://sightings.ala.org.au/
+    url: https://www.ala.org.au/home/record-a-sighting/
 eol:
     lang: en
 defaultDecimalLatitude: -25.61
