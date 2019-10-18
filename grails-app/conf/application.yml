@@ -99,6 +99,9 @@ endpoints:
 app:
   name: ala-bie
   dataDir: /tmp/gbif-ecat
+security:
+  cas:
+    applyUriFiltersToTicketValidation: false
 skin:
   layout: ala
   orgNameLong: Atlas of Living Australia
@@ -137,6 +140,9 @@ bhl:
     baseURL: https://www.biodiversitylibrary.org
 speciesList:
     baseURL: https://lists.ala.org.au
+    preferredSpeciesListDruid:
+    preferredListName: ALA Preferred Species Images
+    apiKey:
 alerts:
     baseUrl: https://alerts.ala.org.au/ws/
 sightings:
@@ -160,7 +166,9 @@ map:
     records:
       colour: e6704c
 bieService:
+  baseUrl: https://bie-ws.ala.org.au/ws
   queryContext:
+  apiKey:
 googleMapsApiKey: AIzaSyB0HIkSCV2EdkG50uM7s96IEbO6wUHTqy0
 languageCodesUrl: file:///data/ala-bie/config/languages.json
 geocode.querySuffix:
