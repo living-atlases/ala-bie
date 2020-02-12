@@ -44,12 +44,6 @@ repositories {
     maven { url "https://nexus.ala.org.au/content/groups/public/" }
 }
 
-
-
-configurations.all {
-    resolutionStrategy.cacheDynamicVersionsFor 10, 'minutes'
-}
-
 dependencies {
     compile "org.springframework.boot:spring-boot-starter-logging"
     compile "org.springframework.boot:spring-boot-autoconfigure"
