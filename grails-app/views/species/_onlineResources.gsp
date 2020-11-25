@@ -1,7 +1,7 @@
 <ul>
     <li><a href="https://biocache.ala.org.au/occurrences/search?taxa=${tc?.taxonConcept?.nameString?.replace(" ","%20")}">ALA occurrences</a></li>
     <li><a href="https://www.gbif.org/species/search?q=${tc?.taxonConcept?.nameString?.replace(" ","%20")}">GBIF</a></li>
-    <li><a href="https://eol.org/search?q=${tc?.taxonConcept?.nameString?.replace(" ","%20")}&show_all=true">Encyclopaedia of Life</a></li>
+    <li><a href="https://eol.org/search?q=${tc?.taxonConcept?.nameString?.replace(" ","%20")}&show_all=true">Encyclopedia of Life</a></li>
     <li><a href="https://www.biodiversitylibrary.org/search?searchTerm=${tc?.taxonConcept?.nameString?.replace(" ","%20")}#/names">Biodiversity Heritage Library</a></li>
     %{--<li><a href="https://www.arkive.org/explore/species?q=${tc?.taxonConcept?.nameString?.replace(" ","%20")}">ARKive</a></li>--}%
     %{--<li><a href="https://www.inaturalist.org/taxa/search?q=${tc?.taxonConcept?.nameString?.replace(" ","%20")}">iNaturalist</a></li>--}%
